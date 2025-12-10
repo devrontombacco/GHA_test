@@ -1,0 +1,14 @@
+name: ThisIsATestPR
+
+on:
+  pull_request:
+    branches: [master]
+  workflow_dispatch:
+
+jobs:
+  testPR:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Step1
+        run: echo "has it worked?"
