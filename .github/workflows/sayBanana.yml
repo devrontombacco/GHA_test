@@ -1,0 +1,19 @@
+name: Say Banana
+
+on: 
+  push: 
+    branches: [main]
+
+jobs: 
+  sayBanana: 
+    runs-on: ubuntu-latest
+
+    steps: 
+      - name: Step1
+        run: echo "Say Banana line 1"
+
+      - name: Step2
+        run: echo "Say Banana line 2"
+
+      - name: Step3
+        run: echo "Say Banana line 3"
