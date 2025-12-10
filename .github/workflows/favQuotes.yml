@@ -1,0 +1,19 @@
+name: MyFavQuotes
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  sayFavQuotes:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Step1
+        run: echo "carpe diem"
+
+      - name: Step2
+        run: echo "it is better to have loved and lost than bla bla bla"
+
+      - name: Step3
+        run: echo "a bird in the hand is worth 2 in the bush"
